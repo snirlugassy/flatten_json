@@ -1,9 +1,10 @@
 import json
 import csv
 
-INPUT_FILE_NAME = 'WorkersData.json'
-OUTPUT_FILE_NAME = 'WorkersData.tsv'
-JSON_PRIMARY_KEY = 'UUID'
+INPUT_FILE_NAME = 'data.json'
+OUTPUT_FILE_TYPE = 'tsv'
+OUTPUT_FILE_NAME = 'data' + OUTPUT_FILE_TYPE
+JSON_PRIMARY_KEY = 'ID'
 DELIMITER = '\t'
 
 def load_data(file_name):
