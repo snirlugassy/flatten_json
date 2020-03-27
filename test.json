@@ -1,7 +1,0 @@
-{    
-    "test": {
-        "hello": "world",
-        "number": 1,
-        "list": ["1", 1, "snir"]
-    }
-}

@@ -14,5 +14,5 @@ OUTPUT_FILE_NAME - output file name
 ```
 ```
 JSON_PRIMARY_KEY - the name of the json file primary key
-example: for {"john":"snow"} the primary key might be "name" or "favorite_actor".
+example: for {"john":"snow", "will": "smith"} the primary key might be "name" or "favorite_actor".
 ```
